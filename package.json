@@ -1,7 +1,7 @@
 {
-  "name": "pex_frontend_test",
+  "name": "frontend-test",
   "version": "1.0.0",
-  "description": "pex frontend test",
+  "description": "frontend test",
   "main": "./app/index.js",
   "engines": {
     "node": "8.4"
