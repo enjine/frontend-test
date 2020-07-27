@@ -1,0 +1,19 @@
+{
+  "name": "pex_frontend_test",
+  "version": "1.0.0",
+  "description": "pex frontend test",
+  "main": "./app/index.js",
+  "engines": {
+    "node": "8.4"
+  },
+  "scripts": {
+    "test": "mocha --recursive './test/**/*.js'",
+    "start": "npm run test"
+  },
+  "author": "Alessandro Di Candia",
+  "license": "ISC",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "mocha": "^6.2.1"
+  }
+}
