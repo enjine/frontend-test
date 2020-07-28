@@ -2,7 +2,7 @@ const Immutable = require("immutable");
 const assert = require("assert");
 const transformErrors = require("../app");
 
-it("should tranform errors", () => {
+it("should transform errors", () => {
   // example error object returned from API converted to Immutable.Map
   const errors = Immutable.fromJS({
     name: ["This field is required"],

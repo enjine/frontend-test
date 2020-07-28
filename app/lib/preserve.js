@@ -3,7 +3,7 @@ const isListOfStrings = require("./isListOfStrings");
 const collapse = require("./collapse");
 
 module.exports = function preserve(val) {
-  return val.map((v, k) => {
+  return val.map((v) => {
     return isEmptyCollection(v)
       ? v
       : isListOfStrings(v)

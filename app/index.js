@@ -1,7 +1,6 @@
 const { Map, Set, Seq, List, Collection } = require("immutable");
 const collapse = require("./lib/collapse");
 const isListOfStrings = require("./lib/isListOfStrings");
-const isString = require("./lib/isString");
 const flatten = require("./lib/flatten");
 const preserve = require("./lib/preserve");
 
